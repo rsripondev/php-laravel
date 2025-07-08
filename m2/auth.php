@@ -18,3 +18,14 @@ if(empty($Username) || empty($Password)){
         echo "Invalid Username or Password";
     }
 }
+
+const USERNAME = 'Ripon';
+const PASSWORD = '123456';
+
+if(empty($USERNAME) || empty($PASSWORD)){
+    echo "Username or Password is Blank";
+}elseif($USERNAME = $PASSWORD){
+    echo "Login No Problem";
+}else{
+    echo "Okay Brother no Problem";
+}
